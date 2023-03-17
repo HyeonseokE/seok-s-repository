@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 import time
 import urllib.request
 
-
 driver = webdriver.Chrome()
 driver.get("https://www.google.co.kr/imghp?hl=ko&ogbl")
 elem = driver.find_element(By.NAME, "q")
